@@ -1,4 +1,4 @@
-# Introduction to Immunology (Part I)
+# Introduction to Immunology
 
 The immune system is like a superhero inside our bodies that protects us from harmful invaders. It has several important jobs to keep us healthy.
 
@@ -196,6 +196,157 @@ These cells are born in the bone marrow and circulate in the bloodstream, ready 
 knitr::include_graphics('../imgs/lymph.gif')
 ```
 
+## Antibodies 
+
+```{r echo = F, fig.cap = 'Structure of an Antibody', fig.align = 'center'}
+knitr::include_graphics('../imgs/antibodies.png')
+```
+
+**Antibodies**, also known as **immunoglobulins**, are remarkable Y-shaped proteins that play a crucial role in our immune system's defense strategies.
+
+Their structure resembles a "Y," with two identical heavy chains forming the long arms and two identical light chains forming the shorter arms. This distinctive shape allows antibodies to bind to specific invaders, known as antigens. Antigens are typically proteins, polysaccharides, lipids, or nucleic acids combined with proteins.
+
+Each antibody is like a specialized soldier, and the specificity of its target is determined by the unique combination of heavy and light chains. It's similar to having a lock-and-key system, where each antibody fits perfectly with a specific antigen.
+
+Interestingly, the immune system is equipped with a diverse army of B cells, each expressing **B cell receptors (BCRs)** with a distinct specificity for particular antigens. When a B cell encounters its matching antigen, it undergoes activation and transforms into a plasma cell, which is a factory for producing antibodies.
+
+### Antibody Functions
+
+```{r echo = F, fig.cap = 'Different Functions of Antibodies', fig.align = 'center'}
+knitr::include_graphics('../imgs/antibody_functions.png')
+knitr::include_graphics('../imgs/antibodies_illustration.png')
+```
+
+Antibodies come in five different types: IgA, IgG, IgM, IgE, and IgD.  They can each play different roles different on their types:
+
+### Complement Response
+
+```{r echo = F, fig.cap = 'Illustration of the Antibody Complement Response', fig.align = 'center'}
+knitr::include_graphics('../imgs/complement_response.png')
+```
+
+## Cell-Mediated Immune Response
+
+The cell-mediated immune response involves T-cells, which are crucial players in recognizing and responding to specific threats. Here's how T-cells operate in this intricate defense mechanism:
+
+1. **Recognition of Peptide Antigens:** T-cells have a unique ability to recognize peptide antigens presented by antigen-presenting cells (APCs). These peptides are usually fragments of proteins from pathogens or other foreign invaders.
+
+2. **Association with Major Histocompatibility Complex (MHC):** Antigen presentation occurs in conjunction with major histocompatibility complexes (MHC). For CD4 T-cells, which are also known as helper T-cells, antigen presentation happens on MHC class II molecules. This interaction is essential for activating CD4 T-cells.
+
+3. **Specificity and Activation:** Antigen-presenting cells, particularly dendritic cells, present peptides to CD4 T-cells, providing them with crucial information about the invader. This interaction activates CD4 T-cells, turning them into effective coordinators of the immune response.
+
+4. **Recognition by CD8 T-cells:** Some specific APCs, including dendritic cell subsets, also present peptides on MHC class I molecules. This interaction licenses CD8 T-cells, enabling them to recognize and eliminate infected or abnormal cells.
+
+5. **Universal Peptide Presentation:** Interestingly, almost all cells in the body (except mature red blood cells) have the capability to present peptides on MHC class I molecules. This allows T-cells to constantly survey the body for abnormalities, ensuring that infected or malfunctioning cells are targeted for destruction.
+
+### T-Cells
+
+```{r echo = F, fig.cap = 'T Cells', fig.align = 'center'}
+knitr::include_graphics('../imgs/t_cells.png')
+```
+
+```{r echo = F, fig.cap = 'Clonal Expansion', fig.align = 'center'}
+knitr::include_graphics('../imgs/clonal_expansion.png')
+```
+
+```{r echo = F, fig.cap = 'Overview of the Immune Response', fig.align = 'center'}
+knitr::include_graphics('../imgs/immune_response.png')
+```
+
+T lymphocytes, commonly known as T cells, are a crucial component of the immune system, and they can be classified into different types, each with specific functions.
+
+1. **Helper T-Lymphocytes (CD4+):** These are often referred to as "helper" T cells. The designation CD4+ indicates a specific protein found on the surface of these cells. Helper T cells play a central role in coordinating the immune response. They assist in activating other immune cells, including other T cells, phagocytes, and B cells. Think of them as the generals guiding the overall strategy of the immune system.
+
+2. **Cytolytic T-Lymphocytes (CD8+):** Also known as cytotoxic T cells, these are identified by the presence of the CD8 protein. Their primary role is to destroy infected cells that harbor microbes or microbial proteins. Cytotoxic T cells are like the special forces, targeting and eliminating cells that have been hijacked by pathogens.
+
+Both CD4+ and CD8+ T cells are critical for a well-coordinated immune response. They work together to recognize and combat infections:
+
+- **Antigen Recognition:** T cells recognize antigens, which are usually peptide fragments of proteins derived from pathogens.
+
+- **Activation of Helper T Cells (CD4+):** Helper T cells play a key role in activating other immune cells. They facilitate communication between different components of the immune system, ensuring a coherent and effective response.
+
+- **Activation of Cytotoxic T Cells (CD8+):** When a cell is infected, cytotoxic T cells are activated to eliminate the infected cells, preventing the spread of the infection.
+
+### Primary and Secondary Immune Responses
+
+The immune system has two distinct but interconnected responses to an infection: the primary immune response and the secondary immune response.
+
+**Primary Immune Response:**
+- **Effector Cells and Memory Cells:** During the primary immune response, the body generates specific clones of effector cells, which are the cells directly involved in combating the infection. Additionally, memory cells are produced, which "remember" the specific pathogen encountered. These memory cells play a crucial role in the secondary immune response.
+
+- **Development Time:** The primary response takes some time to develop, typically occurring over several days. This delay is due to the initial activation and expansion of immune cells specific to the encountered pathogen.
+
+- **Infection Elimination:** Although the primary response may take a while to fully activate, it eventually contributes to the elimination of the infection. Effector cells work to control and eliminate the invading pathogen.
+
+**Secondary Immune Response:**
+- **Pronounced and Faster:** The secondary immune response is characterized by being more pronounced and faster compared to the primary response. This heightened efficiency is a result of the presence of memory cells that "remember" the specific pathogen from the initial encounter.
+
+- **More Effective:** The secondary response is more effective at limiting the infection. Memory cells recognize the pathogen quickly and mount a swift and robust immune response. This rapid response is often so efficient that it can prevent the infection from causing noticeable symptoms.
+
+- **Immunological Memory:** One key feature of the secondary immune response is immunological memory. Memory cells "remember" the previous encounter with the pathogen, allowing for a faster and more potent response upon re-exposure. This memory is the basis for vaccines, which aim to stimulate the immune system to produce memory cells without causing the disease itself.
+
+## Vaccines
+
+```{r echo = F, fig.cap = 'How do Vaccines Work?', fig.align = 'center'}
+knitr::include_graphics('../imgs/vaccines.png')
+```
+
+Vaccines are designed to train the immune system to recognize and defend against specific pathogens, such as viruses or bacteria. Here's a step-by-step explanation of how vaccines work:
+
+1. **Introduction of Vaccine Particles:** When a person receives a vaccine, it contains harmless fragments or weakened forms of the targeted pathogen. These vaccine particles serve as mimics that resemble the actual pathogen but don't cause the disease itself.
+
+2. **Uptake by Dendritic Cells:** Dendritic cells, specialized immune cells, are responsible for capturing and presenting foreign particles to the immune system. They take up the vaccine particles and migrate to lymph nodes.
+
+3. **Activation of Adaptive Immune Response:** In the lymph nodes, dendritic cells present the vaccine particles to T-cells, specifically activating the adaptive immune response. This involves the activation of both helper T-cells (CD4+) and cytotoxic T-cells (CD8+).
+
+4. **T-Cell Activation:** Activated helper T-cells play a central role in coordinating the immune response. They stimulate B-cells and cytotoxic T-cells. Cytotoxic T-cells are responsible for recognizing and eliminating infected cells.
+
+5. **Recognition by B-Cells:** B-cells, another type of immune cell, recognize the vaccine particles directly. They become activated and transform into plasma cells, which are factories for producing antibodies.
+
+6. **Production of Antibodies:** Antibodies are proteins produced by plasma cells in response to the vaccine. These antibodies specifically target and neutralize the vaccine particles. Additionally, they are equipped to recognize and neutralize the actual pathogen if encountered in the future.
+
+7. **Formation of Memory Cells:** The immune system not only generates effector cells (plasma cells producing antibodies) but also forms memory T- and B-cells. These memory cells "remember" the specific characteristics of the pathogen, providing long-lasting immunity.
+
+8. **Preparedness for Future Exposure:** With memory T- and B-cells in place, the host's immune system is primed and ready to mount a rapid and effective immune response upon subsequent exposure to the actual pathogen. This preparedness is what confers immunity and protects the individual from developing severe illness or complications.
+
+### Influenza Vaccine
+
+```{r echo = F, fig.cap = 'Flu Virus Diagram', fig.align = 'center'}
+knitr::include_graphics('../imgs/flu_virus.png')
+```
+
+Influenza viruses are classified into several types and subtypes based on their genetic and surface protein characteristics. Here's an overview of the main types and some key distinctions:
+
+1. **Types of Influenza Virus:**
+   - **Type A and Type B:** These are the primary types associated with seasonal epidemics in humans. Influenza A viruses are further categorized into subtypes based on their surface proteins, hemagglutinin (H) and neuraminidase (N). Influenza B viruses do not have subtypes but are classified into two main lineages: Yamagata and Victoria. Infections with these types and subtypes are typically responsible for the seasonal flu.
+   - **Type C:** Influenza C causes milder symptoms and is less common than Types A and B.
+   - **Type D:** This type is mainly found in pigs and cattle, and human infections are extremely rare.
+
+2. **Influenza A – Subtypes (H#N#):**
+   - The subtypes of influenza A are determined by the combinations of two viral surface proteins: hemagglutinin (H) and neuraminidase (N).
+   - Hemagglutinin (H) has 18 subtypes (H1-H18).
+   - Neuraminidase (N) has 11 subtypes (N1-N11).
+   - The naming convention for influenza A viruses includes the H and N subtypes, such as H1N1 or H3N2.
+
+3. **Influenza B – Lineages:**
+   - Influenza B viruses do not have subtypes but are classified into two lineages: Yamagata and Victoria.
+   - These lineages help in characterizing and tracking different strains of influenza B.
+
+4. **Naming Convention:**
+   - The Centers for Disease Control and Prevention (CDC) follows an internationally accepted naming convention for influenza viruses.
+   - The naming convention includes the type, geographical origin, strain number, and year of isolation. For example, A/Perth/16/2009 (H3N2) indicates an influenza A virus of human origin, subtype H3N2, isolated in Perth in 2009.
+
+### Why is it So Hard to Make a Flu Vaccine?
+
+```{r echo = F, fig.cap = 'Sequence of Immune Events During a Viral Infection', fig.align = 'center'}
+knitr::include_graphics('../imgs/sequence_virus.png')
+```
+
+```{r echo = F, fig.cap = 'Why it\'s difficult to make a Flu Vaccine', fig.align = 'center'}
+knitr::include_graphics('../imgs/difficult_flu_vaccines.png')
+```
+
+Long story short, the virus changes quickly via something called **antigenic shift**.  
 
 
 
