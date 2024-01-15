@@ -1,0 +1,48 @@
+# Tutorial 1
+
+This tutorial focuses on the questions posted to the end of the first set of lecturing slides on the NTULearn.
+
+1.  **What are physical barriers?**
+
+    These are anatomical and physiological structures of the human body that behave as the first line of defense against pathogens.  These structures are keystone in the innate immune system (which provide non-specific protection against pathogens) and include:
+    
+    1.  **Mucosal membranes**: mucous can trap and remove pathogens, and mucous can also be moved out of the body or swallowed and digested via cilia (i.e., tiny hairs that line the membranes and facilitate the movement of mucous).
+    
+    1.  **Gastrointestinal tract**: the environment in the digestive tract is acidic - this makes microbial challenging, plus hydrolytic enzymes like pepsin can also eliminate potential pathogens.
+    
+    1.  **Skin**: the outermost layer of the skin - the epidermis - is made up of closely-compacted cells that are difficult for pathogens to penetrate.  The skin also has sebaceous glands that secrete oil to make the skin a less hospitable place for pathogens.
+    
+1.  **How does the innate immune response transition to the adaptive immune response?  What are the cell types involved?**
+
+    This is how the process generally unfolds:
+    
+    - Innate immune cells like macrophages and dendritic cells recognize and engulf pathogens using pattern recognition receptors.  These receptors can pick up common patterns that are associated with pathogens - these are called pathogen-associated molecular patterns or PAMPS for short.
+    - These innate immune cells then present fragments of the pathogens called antigens on their surfaces.  The presentation happens through the MHC proteins.
+    - Dendritic cells then migrate to the lymph nodes and present their antigens to T-cells 
+    - The T-cells are then activated and via T-cell receptor.  The T-cells are then changed into helper (CD4) and cytotoxic (CD8) T-cells.  The T-cells (helper ones) then activate B-cells.
+    - The B-cells undergo clonal selection, differentiate into plasma cells, and produce antibodies.  
+    - T-cells and B-cells die (most of them), a small proportion of them go on to turn into memory T and B cells.
+    
+1.  **Red blood cells do not have an MHC class I protein, so how do they evade NK-mediated apoptosis?**
+
+    Red blood cells lack the markers that are necessary to trigger the release of lytic granules.
+    
+1.  **Is it possible for the innate immune system to have a "memory"?**
+
+    Recent research have suggested that this is possible via a phenomenon called "innate immune memory" or "trained immunity" for short.  This refers to the idea that certain cells of the innate immune system like macrophages and monocytes can undergo functional reprogramming or epigenetic changes (e.g., DNA methylation or histone modifications) when they encouter a pathogen or a specific stimulus.  This "reprogramming" leads to a more efficient response against the same pathogen in the following infection.
+    
+1.  **Do plants, insects, and fish have immune systems?  Are they innate or adaptive?**
+
+    All three entities do have immune systems, but they rely on innate immune mechanisms to defend against pathogens:
+      
+    1. **Plants:**
+    
+    Plants possess an innate immune system that involves both physical barriers and biochemical defense mechanisms. Physical barriers include the plant cell wall, which acts as a barrier against invading pathogens. Biochemical defenses involve the production of antimicrobial compounds, such as phytoalexins, and the activation of various signaling pathways in response to pathogen attack. Plant cells can recognize specific molecular patterns associated with pathogens, triggering a defense response.
+      
+    2. **Fish:**
+      
+    Fish have both innate and adaptive immune components. Their innate immune system involves physical barriers (skin and mucus), phagocytic cells (like macrophages), and antimicrobial peptides. Fish also have a primitive form of adaptive immunity, with lymphocytes similar to T cells and B cells in mammals, but lacking the complex immunoglobulin-based adaptive immune system. Instead, fish rely on a diverse array of receptors like immunoglobulin domains and lectins for immune recognition.
+      
+    3. **Insects:**
+    
+    Insects primarily rely on their innate immune system for defense. Their innate immune responses include physical barriers (cuticle and exoskeleton), cellular responses involving hemocytes (equivalent to blood cells in vertebrates) with phagocytic activity, and the production of antimicrobial peptides. Insects lack the adaptive immune system present in vertebrates.

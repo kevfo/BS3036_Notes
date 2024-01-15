@@ -1,0 +1,201 @@
+# Introduction to Immunology (Part I)
+
+The immune system is like a superhero inside our bodies that protects us from harmful invaders. It has several important jobs to keep us healthy.
+
+Firstly, one of its main tasks is to defend us against tiny, unseen creatures called **microbes** that can make us sick. These can be viruses, bacteria, or other types of germs that try to enter our bodies.
+
+Another important role of the immune system is to fight against abnormal cells that could turn into tumors or cells infected by pathogens. It acts like a security guard, ensuring that our cells stay healthy and don't turn into troublemakers.
+
+**Homeostasis** is a big word, but it simply means that the immune system helps maintain balance in our body. It ensures that everything is working just right, like a thermostat keeping our body functions in check.
+
+Lastly, the immune system is responsible for cleaning up after itself. It destroys cells that are no longer useful or have become damaged, like old red blood cells or white blood cells that are not fit for duty. It also gets rid of things like antigen-antibody complexes, which are like the aftermath of battles fought within our bodies.
+
+## Innate Immunity
+
+**Innate immunity** is like the first-line defense team in our body, and it has some interesting features that help it act quickly against invaders.
+
+Firstly, it's a **non-specific responder**, meaning it doesn't target specific invaders but goes after a range of potential troublemakers. This rapid response is possible because it relies on components that are already present in the body.
+
+Imagine it as a quick-reacting team that jumps into action within minutes of detecting an infection. However, this team doesn't have a memory, so it reacts in the same way each time it encounters a threat, without learning from previous experiences. It's like a brave squad that tackles different problems with the same set of tools.
+
+Surprisingly, innate immunity does not engage in **clonal expansion**, which means it doesn't create an army of specialized cells to deal with a specific threat. Instead, it uses the same molecules and cells to respond to a variety of pathogens.
+
+### Mechanisms Behind Innate Immunity
+
+The mechanisms of innate immunity are like a team of superheroes working together to protect our body from invaders. These mechanisms involve physical barriers and specialized cells that play crucial roles in keeping us safe.
+
+Firstly, think of our skin as the ultimate fortress – it acts as a physical barrier that prevents most invaders from getting inside. Additionally, the acidic environment in our stomach is like a powerful shield that eliminates many pathogens. However, some crafty microbes, like helicobacter pylori, can still slip through these defenses.
+
+Our body also has a secret weapon in **mucosal protection**, which involves the production of antimicrobial peptides. These peptides act like guards, patrolling the mucous membranes and fighting off potential threats.
+
+```{r echo = F, fig.cap = 'Images of Cells of the Innate Immune System', fig.align = 'center'}
+knitr::include_graphics('../imgs/innate_cells.png')
+```
+
+But that's not all; we have a team of cells that are always on the lookout for trouble. **Natural killer cells** are like snipers, targeting and eliminating infected cells. Neutrophils, macrophages, mast cells, basophils, and eosinophils are like the foot soldiers, each with its unique skills to combat different invaders. They patrol our body, ready to take action when needed:
+
+### Neutrophils 
+
+    ```{r echo = F, fig.cap = 'Description and Image of a Neutrophil', fig.align = 'center'}
+    knitr::include_graphics('../imgs/innate_cells.png')
+    ```
+
+**Neutrophils**, which are a type of white blood cells also known as **polymorphonuclear leukocytes**, are the frontline soldiers of our immune system. When activated, these cells perform essential functions to protect our body from harmful invaders.
+
+One of their main duties is **phagocytosis**, a process where they engulf and digest bacteria. It's like they're the cleanup crew, devouring the invaders to keep our body safe. Additionally, neutrophils activate bactericidal mechanisms, meaning they unleash substances that can kill bacteria.
+
+```{r echo = F, fig.cap = 'Neutrophils in Action', fig.align = 'center'}
+knitr::include_graphics('../imgs/neutrophils_in_action.png')
+```
+
+Inside their arsenal of defense, neutrophils possess **myeloperoxidase**, a powerful enzyme that helps them produce reactive substances to combat microbes. Think of it as their secret weapon for creating a hostile environment for the invaders.
+
+**Serine proteases** are another tool in their toolkit. These enzymes assist in breaking down proteins, aiding in the destruction of bacteria and contributing to the overall cleanup mission.
+
+Neutrophils also deploy **defensins**, which are small proteins with antimicrobial properties. These proteins act like tiny guards, disrupting the integrity of bacterial cells and preventing them from causing harm.
+
+Lastly, neutrophils release **cytokines**, signaling molecules that serve as messengers to coordinate the immune response. They communicate with other immune cells, rallying them to join the fight and ensuring a well-organized defense against the invaders.
+
+### Macrophages
+
+Macrophages, another important type of white blood cell, are like the cleanup crew and information couriers of our immune system. When activated, they perform crucial functions to safeguard our body.
+
+```{r echo = F, fig.cap = 'Macrophages in Action', fig.align = 'center'}
+knitr::include_graphics('../imgs/macrophage_in_action.png')
+```
+
+One of their primary tasks is **phagocytosis**, similar to neutrophils. Macrophages engulf and digest bacteria, acting as the body's janitors to remove potential threats. Moreover, they activate bactericidal mechanisms, unleashing substances that can destroy bacteria and ensure a clean and safe environment.
+
+However, macrophages have an additional role that sets them apart – antigen presentation. Think of them as diplomats who gather information about invaders. After phagocytosing bacteria, macrophages break down these invaders into fragments, or antigens. They then present these antigens to other immune cells, like T cells, essentially saying, "Look, this is what the enemy looks like; let's mount a coordinated defense."
+
+#### Phagocytosis
+
+```{r echo = F, fig.cap = 'Phagocytosis in Action', fig.align = 'center'}
+knitr::include_graphics('../imgs/phagocytosis.png')
+```
+
+```{r echo = F, fig.cap = 'Interleukins Secreted During Phagocytosis', fig.align = 'center'}
+knitr::include_graphics('../imgs/ils.png')
+```
+
+When phacytosis happens, a number of compounds of called **interleukins** are secreted - some of which include IL-1$\beta$, TNF-$\alpha$, IL-6, IL-8 (or CXCL8), and IL-12 and result in the following effects:
+
+1.  Lymphocytes are activated
+1.  Vascular structures (i.e., blood vessels) become more permeable to immune cells, antibodies, and fluids.
+1.  Antibodies are also produced
+1.  Neutrophils, basophils, and T cells are called to the site of infection.
+1.  NK (i.e., Natural Killer) cells cause CD4 T cells to turn into T~H~1 cells.
+
+The first three effects mentioned above induce fever and lead to the production of IL-6, the movement of nutrients around the body, and also protein production.
+
+### Natural Killer Cells
+
+```{r echo = F, fig.cap = 'Natural Killer Cells', fig.align = 'center'}
+knitr::include_graphics('../imgs/nk_cells.png')
+```
+
+**Natural Killer (NK) cells** are like the assassins of the immune system, and when activated, they have a specific and deadly function against virus-infected cells.
+
+When NK cells encounter cells infected by viruses, they release **lytic granules**. These granules contain powerful substances that act like tiny bombs, targeting and killing the infected cells. It's as if the NK cells are launching a precise and targeted attack on the cells that have been hijacked by viruses.
+
+```{r echo = F, fig.cap = 'Mechanisms of Killing NK Cells', fig.align = 'center'}
+knitr::include_graphics('../imgs/mechanisms_nk.png')
+```
+
+When an NK cells interacts with a healthy cell (i.e., as seen above), it also has an **MHC molecule** that interacts with the NK cell's inhibitory receptor along with an **activating ligand** that interacts with the NK cell's activating receptor.
+
+```{r echo = F, fig.cap = 'Immune Cells of the Human Immune System', fig.align = 'center'}
+knitr::include_graphics('../imgs/various_immune_cells.png')
+```
+
+In the case of a virus-infected cell, a cancerous cell, or a cell to be destroyed by the NK cell, the cell in question lacks an MHC molecule and hence, is unable to inactivate the NK cell (consequently leading to lysis).
+
+```{r echo = F, fig.cap = 'NK Cells Killing a Parasite', fig.align = 'center'}
+knitr::include_graphics('../imgs/parasite.png')
+```
+
+It should be noted that eosinophils, basophils, and neutrophils have more than one nuclei within them (i.e., polymorphonuclear leukocytes) while mast cells only have one nuclei (i.e., mono-nuclear leukocytes).
+
+#### Early Stages of Infection
+
+```{r echo = F, fig.cap = 'NK Cells in the Early Stages of Infection', fig.align = 'center'}
+knitr::include_graphics('../imgs/nk_early.png')
+```
+
+During the early stages of infection, NK cells may be activated by IL-12 secretions by macrophages.  This subsequently causes the activated NK cells to produce INF-$\gamma$.
+
+```{r echo = F, fig.cap = 'NK Cell Activation from Cytokines from Dendritic Cells', fig.align = 'center'}
+knitr::include_graphics('../imgs/nk_Dc.png')
+```
+
+Moreover, NK cells can also be activated by molecules called **cytokines** by dendritic cells.
+
+## Adaptive Immunity
+
+**Adaptive immunity** is like the strategic reserve force of our immune system, and it kicks in as the second line of defense against invaders. It's a specific and powerful response that takes a bit of time to deploy.
+
+Unlike the rapid response of innate immunity, adaptive immunity is a slow but highly targeted process that unfolds over several days. It relies on genetic events and cellular growth to develop a precise and effective defense strategy.
+
+One of the standout features of adaptive immunity is its specificity. Each cell involved in this response is like a specialized detective that recognizes and responds to a specific part of an invader, known as an epitope on an antigen. It's like having a unique key for each lock, ensuring that the immune system can tailor its response to different types of threats.
+
+Adaptive immunity also has a remarkable memory. After being exposed to an invader once, the immune system remembers it. This memory allows for a faster and stronger response upon repeated exposure to the same threat. It's as if the immune system learns from previous encounters, making it more efficient at dealing with familiar foes.
+
+Furthermore, adaptive immunity leads to clonal expansion. This means that when a specific threat is recognized, the immune system produces a large army of specialized cells targeted to combat that specific invader. It's like recruiting and training a dedicated force for a particular mission.
+
+### Mechanisms
+
+Adaptive immunity operates through two key mechanisms, each with specialized cells that play vital roles in defending the body against invaders.
+
+```{r echo = F, fig.cap = 'Differences Between the Specific and the Non-Specific Immune Responses', fig.align = 'center'}
+knitr::include_graphics('../imgs/specific.png')
+```
+
+The cell-mediated immune response involves T-cells, which can be thought of as the coordinators and warriors of the immune system. There are two main types of T-cells:
+
+1. **Helper T cells:** Imagine them as generals directing the overall strategy. These cells help orchestrate the immune response by releasing signals that activate other immune cells. They're like the commanders who provide instructions to the troops.
+
+2. **Cytotoxic T cells:** Picture them as the elite soldiers. These cells are directly involved in destroying infected or abnormal cells. They recognize and eliminate cells that have been marked for destruction. It's like having a specialized force that goes after specific targets.
+
+On the other hand, the humoral immune response involves B-cells, which are like the factories producing weapons for the immune system.
+
+1. **B cells:** These are the antibody-producing factories. When activated, B cells transform into plasma cells, churning out antibodies. Antibodies are like smart missiles that lock onto specific invaders and neutralize them. B cells are like the arms manufacturers of the immune system, producing the weapons needed to target and eliminate threats.
+
+```{r echo = F, fig.cap = 'Illustration of Dendritic Cells', fig.align = 'center'}
+knitr::include_graphics('../imgs/dendritic.png')
+```
+
+The thing about dendritic cells in the adaptive immune system is that they excel at presenting antigens.  
+
+```{r echo = F, fig.cap = 'Lineages of the Immune Cell', fig.align = 'center'}
+knitr::include_graphics('../imgs/immune_cell_lineage.png')
+```
+
+T cells are part of the adaptive immune system whereas the cells in the green box are part of the innate immune system.
+
+### Monocytes
+
+**Monocytes** are a special type of white blood cells characterized by their kidney bean-shaped nucleus. These cells serve as versatile responders in our immune system, particularly during times of infection and inflammation.
+
+When the body signals the presence of an infection or inflammation, monocytes act swiftly by moving to the affected sites in a manner dependent on a molecule called CCR2. Once they reach these sites, monocytes can undergo a transformation, differentiating into other essential immune cells, namely macrophages and dendritic cells.
+
+Macrophages are like the cleanup crew, devouring invaders and maintaining a clean environment, while dendritic cells act as messengers, presenting information about the invaders to other immune cells.
+
+```{r echo = F, fig.cap = 'Location of HSCs', fig.align = 'center'}
+knitr::include_graphics('../imgs/hsc_locations.png')
+```
+
+Monocytes are not only agile responders but also versatile communicators. They have the ability to produce cytokines, which are signaling molecules that can be either anti-inflammatory (calming the immune response) or pro-inflammatory (activating and intensifying the immune response). This flexibility allows them to modulate the overall immune response based on the specific needs of the situation.
+
+These cells are born in the bone marrow and circulate in the bloodstream, ready to be deployed when needed. They play a crucial role in the body's defense against infections, swiftly responding to signals, transforming into different immune cells, and contributing to the regulation of the immune response.
+
+### Lymph Nodes
+
+#### Bacterial Infection of a Lymph Node
+
+```{r echo = F, fig.cap = 'Bacterial Infection of Lymph Nodes', fig.align = 'center'}
+knitr::include_graphics('../imgs/lymph.gif')
+```
+
+
+
+

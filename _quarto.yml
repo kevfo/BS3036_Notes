@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "BS3036: Fundamentals of Immunology (Con and Exp)"
+  author: "Kevin Fo"
+  date: "14/01/2024"
+  chapters:
+    - part: "**PART I : LECTURE NOTES**"
+      chapters:
+        - index.qmd
+        - chapters/week1.qmd
+    - part: "**PART II : TUTORIAL QUESTIONS**"
+      chapters:
+        - tutorials/tutorial-1.qmd
+    
+  comments:
+    hypothesis: true
+
+bibliography: references.bib
+
+format:
+  html:
+    toc: true 
+    theme:
+      light: cosmo
+      dark: darkly
+
+editor: visual
+
